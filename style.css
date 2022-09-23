@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+section {}
+
+html {
+    /*find a way to change page color*/
+}
+
+.profile-img {
+    height: 320px;
+    width: auto;
+    margin-inline-end: 4rem;
+    animation-duration: 4s;
+    /*find out how to make an animation to open and close image*/
+    /*change pixel size to suit image against window*/
+}
+
+@keyframes .profile-img {}
+
+@media {
+    
+}
+
+body {
+    background: #FFFFE3;
+    color: #253a52;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
+H2 {
+    font-size: 3rem;
+}
+
+.bio {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .bio {
+        flex-direction: column;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFE3;
+}
