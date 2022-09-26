@@ -15,10 +15,8 @@ html {
     /*change pixel size to suit image against window*/
 }
 
-@keyframes .profile-img {}
+@keyframes profile-img {
 
-@media {
-    
 }
 
 body {
@@ -32,17 +30,17 @@ H2 {
     font-size: 3rem;
 }
 
-.bio {
+.about-me {
     display: flex;
-}
-
-@media (max-width: 1024px) {
-    .bio {
-        flex-direction: column;
-    }
 }
 
 a {
     text-decoration: none;
     color: #FFFFE3;
+}
+
+@media (max-width: 1024px) {
+    .about-me {
+        flex-direction: column;
+    }
 }
