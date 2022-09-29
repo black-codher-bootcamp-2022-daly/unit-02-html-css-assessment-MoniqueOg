@@ -3,22 +3,26 @@
 section {}
 
 html {
- color: #696969;
- /*or #787878*/
+    color: #696969;
+    /*or #787878*/
+}
+
+nav {
+    padding: 25px;
 }
 
 /*find a theme possibly purple, greys and black*/
 h1 h2 h3 {
     font-size: 3rem;
-        color: purple;
-        font-family: sans-serif;
-        /*add a border around words to stand out*/
-    }
+    color: purple;
+    font-family: sans-serif;
+    /*add a border around words to stand out*/
+}
 
-    .about-me{
-        color: purple;
-        padding: 25px;
-    }
+.about-me {
+    color: purple;
+    padding: 25px;
+}
 
 .profile-img {
     height: 320px;
@@ -37,7 +41,7 @@ h1 h2 h3 {
 
 a {
     text-decoration: none;
-    color: #FFFFE3;
+    color: #b43396;
 }
 
 @media (max-width: 1024px) {
@@ -52,8 +56,9 @@ a {
 }
 
 .background-image {
-    background-image: url("blackmarblebackground.png");
-    height: 100vh;
+    background-image: url(""); 
+    /*Find a grey background image that has shadows and highlights*/
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
