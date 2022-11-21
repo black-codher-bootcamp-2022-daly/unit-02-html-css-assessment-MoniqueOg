@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+section {}
+
+html {
+    color: #696969;
+    /*or #787878*/
+}
+
+nav {
+    padding: 25px;
+}
+
+/*find a theme possibly purple, greys and black*/
+h1 h2 h3 {
+    font-size: 3rem;
+    color: purple;
+    font-family: sans-serif;
+    /*add a border around words to stand out*/
+}
+
+.about-me {
+    color: purple;
+    padding: 25px;
+}
+
+.profile-img {
+    height: 320px;
+    width: auto;
+    margin-inline-end: 4rem;
+    animation-duration: 4s;
+    /*find out how to make an animation to open and close image*/
+    /*change pixel size to suit image against window*/
+}
+
+@keyframes profile-img {}
+
+.about-me {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #b43396;
+}
+
+@media (max-width: 1024px) {
+    .about-me {
+        flex-direction: column;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url(""); 
+    /*Find a grey background image that has shadows and highlights*/
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    color: #e2e5de
+}
+
+a:link {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:visited {
+    color: darkmagenta;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bolder;
+}
